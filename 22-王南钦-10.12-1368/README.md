@@ -1,6 +1,6 @@
 # 注意事项
 
-[🔗**GitHub链接**]([JoTang/2022焦糖招新-王南钦 at main · NanQin555/JoTang (github.com)](https://github.com/NanQin555/JoTang/tree/main/2022焦糖招新-王南钦))
+[🔗**GitHub链接**](https://github.com/NanQin555/JoTang)
 
 **1. 为防止图床炸掉，影响成绩，每个markdown文件均有PDF文件导出**
 
