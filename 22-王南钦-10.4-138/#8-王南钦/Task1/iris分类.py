@@ -112,33 +112,33 @@ for epoch in range(time):
     cost = cost + loss.cpu().detach().numpy()
     costs.append(cost / label_size)
 
-    # 可视化
-    plt.plot(costs)
-    plt.show()
+# 可视化
+plt.plot(costs)
+plt.show()
 
-    # 测试训练集准确率
-    out = net.test(input)
-    prediction = torch.max(out, 1)[1]
-    pred_y = prediction.numpy()
-    target_y = label.numpy()
-    accuracy = float((pred_y == target_y).astype(int).sum()) / float(target_y.size)
-    print("训练集准确率为", accuracy * 100, "%")
+# 测试训练集准确率
+out = net.test(input)
+prediction = torch.max(out, 1)[1]
+pred_y = prediction.numpy()
+target_y = label.numpy()
+accuracy = float((pred_y == target_y).astype(int).sum()) / float(target_y.size)
+print("训练集准确率为", accuracy * 100, "%")
 
-    # 测试测试集准确率
-    out1 = net.test(x_test)
-    prediction1 = torch.max(out1, 1)[1]
-    pred_y1 = prediction1.numpy()
-    target_y1 = y_test.numpy()
+# 测试测试集准确率
+out1 = net.test(x_test)
+prediction1 = torch.max(out1, 1)[1]
+pred_y1 = prediction1.numpy()
+target_y1 = y_test.numpy()
 
-    accuracy1 = float((pred_y1 == target_y1).astype(int).sum()) / float(target_y1.size)
-    print("测试集准确率为", accuracy1 * 100, "%")
+accuracy1 = float((pred_y1 == target_y1).astype(int).sum()) / float(target_y1.size)
+print("测试集准确率为", accuracy1 * 100, "%")
 
-    # 至此,你已经拥有了一个简易的神经网络,运行一下试试看吧
+# 至此,你已经拥有了一个简易的神经网络,运行一下试试看吧
 
-    # Q
-    # 最后,回答几个简单的问题,本次的问题属于监督学习还是无监督学习呢?batch size又是多大呢?像本题这样的batch size是否适用于大数据集呢,原因是?
+# Q
+# 最后,回答几个简单的问题,本次的问题属于监督学习还是无监督学习呢?batch size又是多大呢?像本题这样的batch size是否适用于大数据集呢,原因是?
 
-    # A
-    # 监督学习
-    # batch size = none 即一次把所有数据“投喂”
-    # 不适用于大数据
+# A
+# 监督学习
+# batch size = none 即一次把所有数据“投喂”
+# 不适用于大数据
