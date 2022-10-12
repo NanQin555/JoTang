@@ -6,11 +6,11 @@
 
 **2. 此次招新题的过程部分以及学习笔记在个人博客[视界之外 想象之中](https://nanqin555.github.io/)中更新**
 
-**3.#8题目文件较多较乱，主要的作答部分在Task__文件中的markdown（PDF）以及ipynb文件中。另外，FER2013数据集的导入为本地导入~~各位学长学姐一定会修改的吧~~**
+**3.#8题目文件较多较乱，主要的作答部分在Task__文件中的markdown（PDF）以及ipynb文件中。另外，FER2013数据集的导入为本地导入**
 
 **4.GitHub好像对jupytr notebook并不是很智能~~它要运行完成后才显示~~，建议还是直接jupyter notrbook打开**
 
-**5.**
+**5.不知道我的GitHub抽什么疯，jupyter notebook文件可能打不开，所以用pycharm 重新复制了一下代码。**
 
 ---
 
